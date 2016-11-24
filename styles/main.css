@@ -1,0 +1,33 @@
+/*
+Main stylesheet for the app
+anything that isn't page-specific goes here.
+*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Arial', sans-serif;
+}
+
+h1, .centered {
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+/* -- SCROLL BAR --*/
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #666;
+  border-radius: 20px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ddd;
+  border-radius: 20px;
+}
